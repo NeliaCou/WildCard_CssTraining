@@ -10,7 +10,7 @@ body {
 
 main {
     border-radius: 12px;
-    background-color: rgb(247, 247, 247);
+    background-color: $font-color;
     width: 44rem;
     box-shadow: 5px 2px 15px gray;
 }
@@ -58,10 +58,15 @@ secondPart {
     h2{
         padding-right: 1rem;
     }
+    button{
+        background-color: $font-color;
+    border: none;
+    }
 }
 
 h2{
     font-size: 1.2rem;
-    color: $font-color;
+    color: rgb(137, 127, 127);
     margin-left: 2rem;
 }
+
